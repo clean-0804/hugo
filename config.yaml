@@ -1,26 +1,25 @@
 baseurl: https://example.com
-languageCode: zh-cn
-theme: hugo-theme-stack
+languageCode: en-us
+theme: stack
 paginate: 5
-title: 呆呆不是槑
-
+title: Example Site
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: stack
 
 # GA Tracking ID
 googleAnalytics:
 
 # Theme i18n support
-# Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
 DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
-    post: /p/:slug/
+    post: /:year/:slug/
     page: /:slug/
 
 params:
@@ -28,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon:
 
     footer:
         since: 2020
@@ -83,20 +82,21 @@ params:
             clientSecret:
             autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL:
             lang:
-            pageview:
+            visitor:
+            avatar:
             emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
                 - name
                 - email
                 - url
+            placeholder:
             locale:
                 admin: Admin
-                placeholder:
 
         twikoo:
             envId:
@@ -132,19 +132,19 @@ params:
             host:
             id:
     widgets:
-        homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 5
-            - type: categories
-              params:
-                  limit: 10
-            - type: tag-cloud
-              params:
-                  limit: 10
-        page:
-            - type: toc
+        enabled:
+            - search
+            - toc
+            - categories
+            - archives
+            - tag-cloud
+
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
 
     opengraph:
         twitter:
@@ -177,7 +177,15 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: flase
+              icon: home
 
     social:
         - identifier: github
@@ -207,14 +215,14 @@ markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
-            unsafe: false
+            unsafe: true
     tableOfContents:
         endLevel: 4
         ordered: true
         startLevel: 2
-    highlight:
+    highlight: 
         noClasses: false
-        codeFences: true
+        codeFences: false
         guessSyntax: true
         lineNoStart: 1
         lineNos: true
