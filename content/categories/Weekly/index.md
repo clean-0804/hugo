@@ -1,7 +1,7 @@
 ---
 title: "Weekly"
 description: "This is an example category"
-slug: "甘普基本"
+slug: "Weekly"
 style:
     background: "#2a9d8f"
     color: "#fff"

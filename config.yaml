@@ -195,7 +195,7 @@ menu:
               icon: brand-github
 
         - identifier: twitter
-          name: Twitter
+          name: Twi
           url: https://twitter.com
           params:
               icon: brand-twitter
