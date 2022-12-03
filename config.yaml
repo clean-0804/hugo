@@ -39,7 +39,7 @@ params:
 
     sidebar:
         emoji: 🍓
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 梦想是实现旺仔牛奶自由
         avatar:
             enabled: true
             local: true
