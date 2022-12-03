@@ -6,9 +6,9 @@
      "description": "我们会一起遇见鲸鱼吗？"
     },
 	{
-        "title": "友情链接",
-        "website": "",
-        "image": "",
-     "description": ""
+        "title": "Muko",
+        "website": "hugo-mukokka.vercel.app",
+        "image": "muko.png",
+     "description": "我以前没得选，现在我想做个绝望的文盲"
     }
 ]
