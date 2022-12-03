@@ -26,8 +26,8 @@ menu:
 
 
 
-> 名称：小球飞鱼  
-> 简介：我们会一起遇见鲸鱼吗？  
-> 地址：[https://mantyke.icu/](https://mantyke.icu/)  
-> 头像：[https://cdn.jsdelivr.net/gh/Mantyke/photo@master/star_min.png](https://cdn.jsdelivr.net/gh/Mantyke/photo@master/star_min.png)
+> 名称：呆呆不是槑  
+> 简介：梦想是实现旺仔牛奶自由
+> 地址：[https://clear0804.vercel.app/](https://clear0804.vercel.app/)  
+> 头像：[https://clear0804.vercel.app/avatar.png](https://clear0804.vercel.app/avatar.png)
 
