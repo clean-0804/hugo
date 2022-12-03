@@ -44,6 +44,7 @@ params:
             enabled: true
             local: true
             src: img/avatar.png
+            url：https://clear0804.vercel.app/avatar.png/
 
     article:
         math: false
