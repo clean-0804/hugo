@@ -5,7 +5,7 @@ date: 2022-12-04T17:49:24+08:00
 tags:
   - Hugo
 slug: hugo1
-image: 2382.jpg
+image: 
 math: 
 license: 
 hidden: false
