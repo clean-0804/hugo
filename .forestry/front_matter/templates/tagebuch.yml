@@ -20,12 +20,6 @@ fields:
 - type: file
   name: image
   label: image
-- type: text
-  name: math
-  label: math
-- type: text
-  name: license
-  label: license
 - type: boolean
   name: hidden
   label: hidden
