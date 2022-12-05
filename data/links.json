@@ -10,5 +10,11 @@
         "website": "https://hugo-mukokka.vercel.app",
         "image": "muko.png",
      "description": "我以前没得选，现在我想做个绝望的文盲."
+    },
+    {
+        "title": "Missing 不想睡",
+        "website": "https://hugo-missingid.vercel.app/",
+        "image": "missing.png",
+     "description": "和我一起做赛博宵夜吧!"
     }
 ]
