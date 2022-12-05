@@ -1,8 +1,7 @@
 ---
-title: "Tagebuch"
+title: "Hugo"
 description: "This is an example category"
-slug: "tagebuch"
-image: "IMG_5759.png"
+slug: "hugo"
 style:
     background: "#2a9d8f"
     color: "#fff"
