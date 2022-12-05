@@ -189,11 +189,11 @@ menu:
 
 related:
     includeNewer: true
-    threshold: 60
+    threshold: 50
     toLower: false
     indices:
         - name: tags
-          weight: 100
+          weight: 200
 
 
 markup:

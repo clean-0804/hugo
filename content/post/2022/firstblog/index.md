@@ -5,7 +5,7 @@ date: 2022-12-04T01:03:43+08:00
 tags:
   - Tagebuch
 slug: firstblog
-image: 
+image: "IMG_9128.jpg"
 math: 
 license: 
 hidden: false
