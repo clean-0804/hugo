@@ -17,12 +17,6 @@ fields:
 - type: text
   name: slug
   label: slug
-- type: text
-  name: math
-  label: math
-- type: text
-  name: license
-  label: license
 - type: boolean
   name: hidden
   label: hidden
