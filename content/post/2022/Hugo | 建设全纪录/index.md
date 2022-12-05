@@ -5,8 +5,6 @@ date: 2022-12-04T17:49:24+08:00
 tags:
   - Hugo
 slug: hugo1
-math: 
-license: 
 hidden: false
 comments: true
 draft: false
