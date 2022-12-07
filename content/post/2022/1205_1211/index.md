@@ -5,7 +5,7 @@ date: 2022-12-07T16:15:01+08:00
 image: DSC00010.jpg 
 hidden: false
 comments: true
-draft: false
+draft: true
 ---
 > **题图**：写字 by 室友粥粥，摄影 by me
 
