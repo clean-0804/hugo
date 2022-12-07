@@ -55,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -83,9 +83,11 @@ params:
             autoCreateIssue: false
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        ## Waline
         waline:
-            serverURL:
-            lang:
+            enabled: true
+            serverURL: https://waline-two-steel.vercel.app
+            lang: "zh-CN"
             visitor:
             avatar:
             emoji:
