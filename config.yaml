@@ -86,7 +86,7 @@ params:
         ## Waline
         waline:
             enabled: true
-            serverURL: https://waline-followcoldlate.vercel.app/
+            serverURL: https://waline-two-steel.vercel.app/
             lang: "zh-CN"
             visitor: true
             avatar: 'monsterid'
