@@ -43,3 +43,26 @@ comments: true
   >02:00 不禁发问为什么一个头像链接让我可以熬夜到这个点<br>
   >02:15 终于做好了！以后我也可以和朋友交换链接了！投入使用！
 
+
+<head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline-two-steel.vercel.app/',
+    });
+  </script>
+</body>
+
+
