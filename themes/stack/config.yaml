@@ -35,8 +35,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: waline
 
         disqusjs:
             shortname:
@@ -65,10 +65,10 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
+            serverURL: https://waline-two-steel.vercel.app/
+            lang: 'zh-CN'
+            visitor: true
+            avatar: 'monsterid'
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
@@ -78,6 +78,7 @@ params:
             placeholder:
             locale:
                 admin: Admin
+            copyright: true
 
         twikoo:
             envId:
