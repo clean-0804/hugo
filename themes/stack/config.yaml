@@ -84,7 +84,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL: https://waline-jrcx1k6nf-missingid.vercel.app/
+            serverURL: https://waline-two-steel.vercel.app/
             lang: 'zh-CN'
             visitor: true
             avatar: 'monsterid'
