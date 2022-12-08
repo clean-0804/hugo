@@ -188,6 +188,13 @@ menu:
               newTab: flase
               icon: home
 
+    social:     
+        - identifier: mastodon
+          name: Mastodon
+          url: https://me.ns.ci/@mohari
+          params:
+            icon: message-circle-2
+
 
 related:
     includeNewer: true
