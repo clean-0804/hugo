@@ -86,10 +86,10 @@ params:
         ## Waline
         waline:
             enabled: true
-            serverURL: https://waline-two-steel.vercel.app
+            serverURL: https://waline-two-steel.vercel.app/
             lang: "zh-CN"
-            visitor:
-            avatar:
+            visitor: true
+            avatar: 'monsterid'
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
@@ -99,6 +99,7 @@ params:
             placeholder:
             locale:
                 admin: Admin
+            copyright: true
 
         twikoo:
             envId:
