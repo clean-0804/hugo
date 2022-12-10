@@ -173,6 +173,8 @@ params:
             enabled: true
         content:
             enabled: true
+    
+    enableimgloop: true
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
