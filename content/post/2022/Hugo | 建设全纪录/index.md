@@ -51,7 +51,7 @@ draft: false
 <br>
 
 ### 装修参考
-**增加轮播图片:**[Hugo | 在文章中插入轮播图片](https://mantyke.icu/posts/2021/cf2cf0fb) by 塔塔
+**增加轮播图片：**[Hugo | 在文章中插入轮播图片](https://mantyke.icu/posts/2021/cf2cf0fb) by 塔塔
 
 <br>
 
