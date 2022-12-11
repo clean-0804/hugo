@@ -46,13 +46,14 @@ draft: false
 - [x] 学会增加标题图
 - [ ] 增加网站评论区
 - [x] 添加轮播图片
-- [ ] 个人书架
+- [x] 书影音展示墙
 - [ ] 一旦又看到好看主题呢（你怎么回事？？？
 <br>
 
 ### 装修参考
-**增加轮播图片：**[Hugo | 在文章中插入轮播图片](https://mantyke.icu/posts/2021/cf2cf0fb) by 塔塔
-
+**增加轮播图片：**[Hugo | 在文章中插入轮播图片](https://mantyke.icu/posts/2021/cf2cf0fb) by 塔塔 <br>
+**书影音展示墙：**[docsify中文文档](https://docsify.js.org/#/zh-cn/)；[docsify搭建和简单使用(mac)](https://jiuaidu.com/jianzhan/828258/)
 <br>
 
 ---
+> [提问箱点这里 (o^^o)](https://box.n3ko.co/_/clear0804)
