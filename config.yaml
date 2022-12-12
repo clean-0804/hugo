@@ -180,16 +180,6 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: -100
-          params:
-              ### For demonstration purpose, the home link will be open in a new tab
-              newTab: flase
-              icon: home
-
     social:     
         - identifier: mastodon
           name: Mastodon
