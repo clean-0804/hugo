@@ -25,7 +25,7 @@ menu:
 
 - 这里是呆呆，也可以叫我MOMO！（不用在意大小写）
 
-- 书影音展示墙：[HELLO](https://clear0804-docsify.vercel.app/#/)【仍在施工中
+- 书影音展示墙：[呆呆便利贴](https://clear0804-docsify.vercel.app/#/)【仍在施工中
 
 - 没有评论区所以提问箱：[Nekobox](https://box.n3ko.co/_/clear0804)
 
