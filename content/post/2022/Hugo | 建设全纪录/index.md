@@ -40,6 +40,26 @@ draft: false
 ### 给博客增加标题图
 明明按照示例文件做的结果不仅没有，还会导致整个网站崩溃，急得不行。刚开始以为是因为没有加引号，然而有的图加了引号也会报错。后来发现好像是有大小限制（存疑），超过1m的会识别不出？？把图片在Affinity过了一遍调了大小果然就能显示了，怪事！
 
+## Markdown
+因为经常会忘记所以干脆记下来……
+### 文本折叠
+```
+  <details>
+    <summary>显示内容</summary>
+    具体内容
+  </details>
+```
+<details>
+  <summary>显示内容</summary>
+  具体内容
+</details>
+
+### 文字黑幕
+基于本主题已经被塔塔添加过黑幕效果的基础上才可以实现！[添加教程here](https://mantyke.icu/posts/2021/a08f1963/)
+```
+  <span class="shady">黑幕效果</span>
+```
+<span class="shady">黑幕效果</span>
 
 ## 装修计划
 - [x] 修改网站背景颜色
