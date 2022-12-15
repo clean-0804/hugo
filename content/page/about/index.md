@@ -27,7 +27,7 @@ menu:
 
 - 书影音展示墙：[呆呆便利贴](https://clear0804-docsify.vercel.app/#/)【仍在施工中
 
-- 没有评论区所以提问箱：[Nekobox](https://box.n3ko.co/_/clear0804)
+- 若有需要，提问箱：[Nekobox](https://box.n3ko.co/_/clear0804)
 
 - 祝您生活愉快(o^^o)
 

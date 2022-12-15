@@ -1,6 +1,6 @@
 ---
 title: "周记 | 把大家叫出来就是为了这点事？"
-description: 感谢尊总对本期题目做出的杰出贡献！
+description: Dec.5-Dec.11 | 感谢尊总对本期题目做出的杰出贡献！
 date: 2022-12-11T16:15:01+08:00
 image: 13.16.07.png
 tags: 
@@ -53,8 +53,6 @@ draft: false
   }
 </style>
 
----
-> - [提问箱点这里 (o^^o)](https://box.n3ko.co/_/clear0804)
 
 
 
