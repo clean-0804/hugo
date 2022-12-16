@@ -5,7 +5,7 @@ date: 2022-12-15T19:51:50+08:00
 image: DSC00028.jpg
 math: 
 license: 
-hidden: false
+hidden: true
 comments: true
 draft: true
 ---
