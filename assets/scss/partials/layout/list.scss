@@ -57,13 +57,13 @@
         padding-bottom: 15px;
 
         article {
-            width: 200px; //改爲200px
-            height: 50px; //改爲50px
-            margin-right: 5px; //改爲5px
+            width: 160px; //改爲200px
+            height:90px; //改爲50px
+            margin-right: 20px; //改爲5px
             flex-shrink: 0;
 
             .article-title {
-                margin: 0;
+                margin: auto;
                 font-size: 1.5rem; //改爲1.5rem，調整字體尺寸
             }
 
