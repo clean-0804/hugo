@@ -8,7 +8,7 @@ comments: false
 license: false
 menu: 
     main:
-        name: friends
+        name: Friends
         weight: -90
         params:
             icon: home
