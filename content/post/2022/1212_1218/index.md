@@ -57,4 +57,5 @@ OK我知道这个例子很诡异但主要是因为本人现在就是这个状态
 
 ---
 
-> - 本周单曲循环：[林志炫-Making Love Out Of Nothing At All (Live)](http://music.163.com/song/25984152?userid=1369261027) 
+> - 本周推歌：[林志炫-Making Love Out Of Nothing At All (Live)](http://music.163.com/song/25984152?userid=1369261027)
+
