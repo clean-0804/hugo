@@ -197,17 +197,18 @@ menu:
           params:
             icon: ship
         
-        - identifier: docs
-          name: Docs
-          url: https://clear0804-docsify.vercel.app
-          params:
-            icon: book
-        
         - identifier: nekobox
           name: 提问箱
           url: https://box.n3ko.co/_/clear0804
           params:
             icon: message-circle-2
+
+        
+        - identifier: docs
+          name: Docs
+          url: https://clear0804-docsify.vercel.app
+          params:
+            icon: file
 
 
 related:
