@@ -29,9 +29,9 @@ menu:
 - 很喜欢到处串门但不常留言，欢迎大家来找我加友链！
 
 ## 关于博客
-- 很明显博主非常贴合人设一如既往地不会起名，名字单纯来自于本人名字，网站icon灵感来自于[金世正 - whale](https://open.spotify.com/track/4UnBxdw1l3J31WBsgmHezz?si=5d34257b84184ac9)，很好听的歌，推荐各位去听。
+- 很明显博主非常贴合人设一如既往地不会起名，名字单纯来自于本人名字，favicon灵感来自于[金世正 - whale](https://open.spotify.com/track/4UnBxdw1l3J31WBsgmHezz?si=5d34257b84184ac9)，很好听的歌，推荐各位去听。
 
-- 使用hugo搭建Vercel部署，主题是Stack。想方设法建设中但总是有困难。
+- 博客使用hugo搭建Github托管，利用Vercel部署，主题是Stack。favicon图标来自于[flaticon](https://www.flaticon.com/)，想方设法建设中但总是有困难。
 
 - 是我的互联网落脚处，相当于高中时期的日记本，因为足够坦诚所以弥足珍贵。
 
