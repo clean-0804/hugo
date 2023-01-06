@@ -1,9 +1,0 @@
----
-title: "Tagebuch"
-description: "This is an example category"
-slug: "tagebuch"
-image: "IMG_5759.png"
-style:
-    background: "#2a9d8f"
-    color: "#fff"
----

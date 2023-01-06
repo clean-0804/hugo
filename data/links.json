@@ -1,16 +1,7 @@
 [
-    {
-        "title": "小球飞鱼",
-        "website": "https://mantyke.icu/",
-        "image": "mantyke.png",
-     "description": "我们会一起遇见鲸鱼吗？"
-    },
-	{
-        "title": "Muko",
-        "website": "https://hugo-mukokka.vercel.app",
-        "image": "muko.png",
-     "description": "我以前没得选，现在我想做个绝望的文盲."
-    },
+    {{<friend name="呆呆不是槑" url="http://clear0804.vercel.app" logo="http://clear0804.vercel.app/avatar.png" word="梦想是实现旺仔牛奶自由">}}
+    
+    {{<friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" word="和我一起做赛博宵夜吧!">}}
     {
         "title": "Missing 不想睡",
         "website": "https://hugo-missingid.vercel.app/",

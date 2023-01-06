@@ -1,0 +1,188 @@
+baseURL: "https://clear0804.vercel.app/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: 呆呆不是槑
+paginate: 5
+theme: hugo-PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+hasCJKLanguage: true
+
+paginate: 10
+
+permalinks: #浏览器链接显示方式
+    post: /:year/:slug/
+    page: /:slug/
+
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 6
+                - name: Friends
+                  url: friends/
+                  weight: 7
+                - name: About
+                  url: about
+                  weight: 9
+                - name: Search
+                  url: search/
+                  weight: 10
+                
+                
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Theme PaperMod
+    # author: ["Me", "You"] # multiple authors
+
+    footer:
+        since: 2022
+        customText: 2023
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    DateFormat: "2006-01-02"
+    ShowShareButtons: false
+    ShowWordCount: true
+    Showdescription: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    TocOpen: true
+    enableimgloop: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: /page/archives
+            - name: Tags
+              url: tags
+            
+
+    homeInfoParams:
+        Title: "呆呆不是槑"
+        Content: >
+            梦想是实现旺仔牛奶自由！
+
+    socialIcons:
+        - name: Mastodon
+          url: https://me.ns.ci/@mohari
+        - name: email
+          url: "https://box.n3ko.co/_/clear0804"
+        - name: Other
+          url: "https://clear0804-docsify.vercel.app/"
+        - name: Rss
+          url: "index.xml"
+
+    
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        disableHLJS: true
+        favicon: "/favicon.png"
+        favicon: "/favicon.png"
+        favicon16x16: "/favicon.png"
+        favicon32x32: "/favicon.png"
+        apple_touch_icon: "/favicon.png"
+        safari_pinned_tab: "/favicon.png"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
