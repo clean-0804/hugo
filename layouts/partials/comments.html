@@ -11,16 +11,13 @@
     <!-- ... -->
     <div id="waline"></div>
     <script type="module">
+      import { init } from '/waline.mjs';
       init({
         el: '#waline',
         serverURL: 'https://waline-two-steel.vercel.app/',
         avatar: 'robohash',//头像默认显示随机小机器人
-        placeholder: placeholder, //评论区占位提示符
-        enableQQ: true,//填入QQ邮箱自动拉取QQ头像和昵称
         lang:'zh-CN', //多语言支持
-        requiredFields: ['nick'], //设置必填项
         recordIP: false, //是否记录评论者IP
-        visitor: true //文章阅读量统计
       });
     </script>
     

@@ -4,12 +4,14 @@ layout: "about"
 # url: "/archives"
 summary: "about"
 ShowBreadCrumbs: false
+comments: false
 ---
 <style>
 .post-meta {
     display: none;
   }
 </style>
+
 
 ## 关于博主
 
@@ -30,6 +32,6 @@ ShowBreadCrumbs: false
 
 ## 联系我
 
-- 建设评论区总是出现问题，所以若有需要可以通过[提问箱](https://box.n3ko.co/_/clear0804)或首页提供的毛象链接和我联系。
+- 评论区历经多日终于建好了！但若有需要也可以通过[提问箱](https://box.n3ko.co/_/clear0804)或首页提供的毛象链接和我联系
 
 - 祝您生活愉快(o^^o)

@@ -110,13 +110,13 @@ params:
     socialIcons:
         - name: Mastodon
           url: https://me.ns.ci/@mohari
-        - name: email
-          url: "https://box.n3ko.co/_/clear0804"
         - name: Other
           url: "https://clear0804-docsify.vercel.app/"
         - name: Rss
           url: "index.xml"
-    comments: true
+    comments: 
+      enabled: true
+      recordIP: false
 
 
     
