@@ -9,7 +9,7 @@
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d 字" .WordCount))) }}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d字" .WordCount))) }}
 {{- end }}
 
 
