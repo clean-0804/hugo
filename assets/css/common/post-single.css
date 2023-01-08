@@ -4,8 +4,8 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
-    font-size: 40px;
+    margin-bottom: 5px;
+    font-size: 28px;
 }
 
 .post-description {
@@ -45,20 +45,20 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 40px;
+    font-size: 28px;
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 28px;
-}
-
-.post-content h3 {
     font-size: 24px;
 }
 
-.post-content h4 {
+.post-content h3 {
     font-size: 20px;
+}
+
+.post-content h4 {
+    font-size: 18px;
 }
 
 .post-content h5 {
