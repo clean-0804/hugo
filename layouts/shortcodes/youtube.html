@@ -1,13 +1,43 @@
-{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
-{{- if not $pc.Disable -}}
-{{- $ytHost := cond $pc.PrivacyEnhanced  "www.youtube-nocookie.com" "www.youtube.com" -}}
-{{- $id := .Get "id" | default (.Get 0) -}}
-<div class="video-wrapper">
-    <iframe loading="lazy" 
-            src="https://{{ $ytHost }}/embed/{{ $id }}{{ with .Get "autoplay" }}{{ if eq . "true" }}?autoplay=1{{ end }}{{ end }}" 
-            allowfullscreen 
-            title="YouTube Video"
-    >
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .youtube_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .youtube_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="youtube_shortcodes">
+    <iframe
+            class="youtube-player"
+            type="text/html"
+            width="640"
+            height="385"
+            src="https://www.youtube.com/embed/{{ index .Params 0 }}?autoplay=0"
+            style="
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 width: 100%;
+                 height: 100%;
+                 border:0;"
+            allowfullscreen frameborder="0">
     </iframe>
 </div>
-{{ end -}}
+</body>
+</html>
