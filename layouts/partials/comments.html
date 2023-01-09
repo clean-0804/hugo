@@ -5,28 +5,26 @@
 {{- end -}}
 
 <head>
-    <!-- ... -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-    />
-    <!-- ... -->
-  </head>
-  <body>
-    <!-- ... -->
-    <div id="waline"></div>
-    <script type="module">
-      import { init } from '/waline.mjs';
-      init({
-        el: '#waline',
-        serverURL: 'https://waline-two-steel.vercel.app/',
-        avatar: 'robohash',//头像默认显示随机小机器人
-        lang:'zh-CN', //多语言支持
-        recordIP: false, //是否记录评论者IP
-      });
-    </script>
-    
-  </body>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="/waline.css"
+  />
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from '/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline-two-steel.vercel.app',
+    });
+  </script>
+</body>
+
 
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
