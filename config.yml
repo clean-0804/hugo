@@ -86,7 +86,7 @@ params:
     TocOpen: true
     enableimgloop: true
     # comments: false
-    images: ["papermod-cover.png"]
+    images: ["favicon.png"]
 
     profileMode:
         enabled: false
