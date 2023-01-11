@@ -16,8 +16,8 @@ ShowToc: false
 
 > 名称：呆呆不是槑  
 > 简介：梦想是实现旺仔牛奶自由  
-> 地址：[http://clear0804.vercel.app](https://clear0804.vercel.app/)  
-> 头像：[clear0804.vercel.app/avatar.png](https://clear0804.vercel.app/avatar.png)
+> 地址：[http://graugris.icu/](https://graugris.icu/)  
+> 头像：[graugris.icu/avatar.png](https://graugris.icu/avatar.png)
 
 {{<friend name="小球飞鱼" url="https://mantyke.icu/" logo="/mantyke.png" word="我们会一起遇见鲸鱼吗？">}}
 
