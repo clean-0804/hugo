@@ -8,5 +8,6 @@ slug: ""
 showToc: true
 draft: true
 hidden: true
+comments: false
 ---
 
