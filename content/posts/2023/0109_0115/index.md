@@ -37,4 +37,4 @@ comments: true
 
 ---
 
-> 本周推歌：[Super Junior - One More Chance](http://music.163.com/song?id=516358602&userid=1369261027) 
+> 本周（其实是上周的）推歌：[Super Junior - One More Chance](http://music.163.com/song?id=516358602&userid=1369261027) 
