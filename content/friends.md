@@ -23,7 +23,7 @@ ShowToc: false
 
 {{<friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" word="和我一起做赛博宵夜吧!">}}
 
-{{<friend name="Muko" url="https://hugo-mukokka.vercel.app" logo="https://iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
+{{<friend name="Muko" url="https://main.iceco.icu/" logo="https://main.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
 
 {{<friend name="チョウ" url="https://changingmoments.vercel.app/" logo="https://changingmoments.vercel.app/images/avatar.jpg" word="就在此刻，改变时刻">}}
 
