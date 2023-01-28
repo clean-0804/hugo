@@ -85,7 +85,6 @@ params:
     ShowToc: true
     TocOpen: true
     enableimgloop: true
-    Showhidden: false
     # comments: false
     images: ["favicon.png"]
 
