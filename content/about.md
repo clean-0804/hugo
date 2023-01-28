@@ -24,7 +24,7 @@ comments: false
 ## 关于博客
 - 很明显博主非常贴合人设一如既往地不会起名，名字单纯来自于本人名字，favicon灵感来自于[金世正 - whale](https://open.spotify.com/track/4UnBxdw1l3J31WBsgmHezz?si=5d34257b84184ac9)，很好听的歌，推荐各位去听。
 
-- 博客使用hugo搭建Github托管，利用Vercel部署，主题是Stack。网站图标来自于[flaticon](https://www.flaticon.com/)。
+- 博客使用hugo搭建Github托管，利用Vercel部署，主题是PaperMod。网站图标来自于[flaticon](https://www.flaticon.com/)。
 
 - 是我的互联网落脚处，相当于高中时期的日记本，因为足够坦诚所以弥足珍贵。
 
