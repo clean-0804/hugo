@@ -5,11 +5,12 @@ date: 2022-12-30T13:28:26+08:00
 slug: "1219_1230" 
 tags: 
     - Tagebuch
-hidden: false
+cover:
+    image: "IMG_1023.jpg"
 comments: true
 draft: false
 ---
-![](IMG_1023.jpg)
+
 依旧：由于逻辑过于混乱，作者本人对阅读以下文字可能造成的不良后果不承担法律责任，望周知。
 
 ---

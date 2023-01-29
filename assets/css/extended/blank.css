@@ -3,6 +3,34 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+.post-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entry-cover {
+    overflow: hidden;
+    padding-left: 18px;
+    height: 100%;
+    width: 50%;
+    margin-bottom: unset;
+}
+
+.post-info {
+    display: inline-block;
+    overflow: hidden;
+    width: 150%;
+}
+
+/* 文章内使用的封面图 */
+.entry-cover1 img {
+    border-radius: var(--radius);
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
 
 .friendurl {
     text-decoration: none !important;
@@ -209,6 +237,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
         margin: 0 !important;
     }
 }
+
+
+
 
 
 

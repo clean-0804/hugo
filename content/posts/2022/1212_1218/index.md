@@ -6,11 +6,12 @@ image: DSC00028.jpg
 slug: "1212_1218" 
 tags:
     - Tagebuch
+cover:
+  image: "DSC00028.jpg"
 hidden: false
 comments: true
 draft: false
 ---
-![ ](DSC00028.jpg)
 依旧是免责声明：由于逻辑过于混乱，作者本人对阅读以下文字可能造成的不良后果不承担法律责任，望周知。<br>
 
 ---

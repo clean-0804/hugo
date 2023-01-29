@@ -80,12 +80,13 @@
     </footer>
     {{- end }}
   </div>  <!--新添加的行-->
+  
+  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
 
-{{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-{{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">

@@ -6,8 +6,7 @@ tags:
     - Hugo
 slug: "hugo2"
 showToc: true
-draft: false
-hidden: false
+
 ---
 建站之后第一次换主题，挑了好久才选了Papermod，简洁风超级好看。还有现成作业可以抄，懒人狂喜！
 
@@ -28,7 +27,7 @@ hidden: false
 - [x]全站字体
     - 添加字体
     - 修改字号
-- [ ]封面图片尺寸
+- [x]封面图片尺寸
 - 评论区
     - [x]取消本地加载
     - [ ]头像随机小怪兽
@@ -42,7 +41,7 @@ hidden: false
 3. [给博客添加友链](https://www.sulvblog.cn/posts/blog/hugo_link/)
 4. [博客目录放在侧边](https://www.sulvblog.cn/posts/blog/hugo_toc_side/)
 5. 短代码参考：[来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
-
+6. [文章封面图片](https://www.sulvblog.cn/posts/blog/img_right/)
 ## 灵机一动
 ### 首页显示
 修改首页博文显示标题下的小字内容，默认显示summary，否则就会直接显示正文，但是之前博客已经有description再额外写summary感觉太麻烦。于是把这里改成直接显示description。方式是在```list.html```里修改下面这段代码：

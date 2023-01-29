@@ -5,6 +5,8 @@ description: "Jan.16-Jan.28 | 时光的河入海流，终于我们分头走。"
 tags: 
     - Tagebuch
 slug: "0116_0128"
+cover:
+    image: IMG_1851.png
 showToc: true
 draft: false
 comments: true
