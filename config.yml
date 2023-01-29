@@ -14,7 +14,7 @@ pygmentsUseClasses: true
 
 hasCJKLanguage: true
 
-paginate: 10
+paginate: 5
 
 permalinks: #浏览器链接显示方式
     post: /:year/:slug/
