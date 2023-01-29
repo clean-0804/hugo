@@ -23,22 +23,25 @@ hidden: false
     - 图片轮播
     - 引用
     - bilibili
+    - 网易云
 - [x]favicon
 - [x]全站字体
     - 添加字体
     - 修改字号
 - [ ]封面图片尺寸
-- [ ]评论区
-    - 头像随机小怪兽
-    - 添加新的表情系列
+- 评论区
+    - [x]取消本地加载
+    - [ ]头像随机小怪兽
+    - [ ]添加新的表情系列
 
 
 ## 抄抄作业
-抄了一位大佬的全套作业，很幸福的体验。列一下以供下次换主题参考（你……！
+几乎没有自己动脑全程到处抄抄，很幸福的体验。列一下以供下次换主题参考（你……！
 1. [Papermod主题配置](https://www.sulvblog.cn/posts/blog/build_hugo)
 2. [文章修改meta信息](https://www.sulvblog.cn/posts/blog/hugo_postmeta/)
 3. [给博客添加友链](https://www.sulvblog.cn/posts/blog/hugo_link/)
 4. [博客目录放在侧边](https://www.sulvblog.cn/posts/blog/hugo_toc_side/)
+5. 短代码参考：[来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
 
 ## 灵机一动
 ### 首页显示
