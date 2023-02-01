@@ -1,10 +1,10 @@
 ---
 title: "周记 | 我的朋友们和我"
 date: 2023-01-28T12:30:30+08:00
-description: "Jan.16-Jan.28 | 时光的河入海流，终于我们分头走。"
+description: "Jan.16-Jan.29 | 时光的河入海流，终于我们分头走。"
 tags: 
     - Tagebuch
-slug: "0116_0128"
+slug: "0116_0129"
 cover:
     image: IMG_1851.png
 showToc: true
