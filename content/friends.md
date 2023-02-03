@@ -28,3 +28,5 @@ ShowToc: false
 {{<friend name="チョウ" url="https://changingmoments.vercel.app/" logo="https://changingmoments.vercel.app/images/avatar.jpg" word="就在此刻，改变时刻">}}
 
 {{<friend name="总是在做梦" url="https://www.alwaysdream.blog/" logo="/cq.jpeg" word="Just set fire to it and walk away.">}}
+
+{{<friend name="山茶花舍" url="https://irithys.com" logo="https://cdn.jsdelivr.net/gh/irithys/cdn@1.1/photo/avatar3.webp" word="吕楪在记录自己的生活">}}
