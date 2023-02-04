@@ -30,3 +30,5 @@ ShowToc: false
 {{<friend name="总是在做梦" url="https://www.alwaysdream.blog/" logo="/cq.jpeg" word="Just set fire to it and walk away.">}}
 
 {{<friend name="山茶花舍" url="https://irithys.com" logo="https://cdn.jsdelivr.net/gh/irithys/cdn@1.1/photo/avatar3.webp" word="吕楪在记录自己的生活">}}
+
+{{<friend name="谢谢所有的鱼" url="https://gregueria.icu/" logo="https://gregueria.icu/avatar.png" word="Hope my veins will bleed out of beautiful words.">}}
