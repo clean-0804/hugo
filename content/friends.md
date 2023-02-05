@@ -17,7 +17,7 @@ ShowToc: false
 > 名称：呆呆不是槑  
 > 简介：梦想是实现旺仔牛奶自由  
 > 地址：[http://graugris.icu/](https://graugris.icu/)  
-> 头像：[graugris.icu/avatar.png](https://graugris.icu/avatar.png)
+> 头像：[http://graugris.icu/avatar.png](https://graugris.icu/avatar.png)
 
 {{<friend name="小球飞鱼" url="https://mantyke.icu/" logo="/mantyke.png" word="我们会一起遇见鲸鱼吗？">}}
 
