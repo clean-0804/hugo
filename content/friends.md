@@ -33,10 +33,10 @@ ShowToc: false
 
 {{<friend name="谢谢所有的鱼" url="https://gregueria.icu/" logo="https://gregueria.icu/avatar.png" word="Hope my veins will bleed out of beautiful words.">}}
 
+{{<friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。">}}
+
 > 下面这些只是单向链接，如有冒犯我先道歉╥﹏╥
 
 {{<friend name="白花恋诗" url="https://trails-of-isara.vercel.app/" logo="https://trails-of-isara.vercel.app/img/avatar_hu48f64c8d86fa41173b12f4da09770394_14255_300x0_resize_box_3.png" word="把最棒的吊桥效应献给你">}}
-
-{{<friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。">}}
 
 {{<friend name="咖喱" url="https://joysblog.vercel.app" logo="https://joysblog.vercel.app/icons/apple-touch-icon.png" word="即使埋藏在内心也没关系">}}

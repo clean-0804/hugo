@@ -5,8 +5,9 @@ description: "" #描述
 tags: 
     - 
 slug: ""
+cover:
+    image: 
 showToc: true
-draft: true
 hidden: true
 ---
 
