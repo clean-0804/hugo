@@ -111,13 +111,13 @@ params:
         - name: Mastodon
           url: https://me.ns.ci/@mohari
         - name: Other
-          url: "https://clear0804-docsify.vercel.app/"
+          url: "http://doc.graugris.icu/"
         - name: Rss
           url: "index.xml"
     comments: 
       enabled: true
       recordIP: false
-
+      emoji: "https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"
 
     
 

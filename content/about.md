@@ -4,7 +4,7 @@ layout: "about"
 # url: "/archives"
 summary: "about"
 ShowBreadCrumbs: false
-comments: false
+comments: true
 showtoc: false
 ---
 <style>
@@ -17,7 +17,7 @@ showtoc: false
 
 - 这里是呆呆，也可以叫我MOMO（不用在意大小写），称呼其他名字也无妨。MBTI是ISFP-A，不过我想不用太在意此，就连韩国人也不靠MBTI交友。80%的时间为kpop人，欧美略微涉足，主机单机游戏玩家，无聊时会四海为家。比较偏好同担拒否，粉籍相认不如互联网路过相视一笑。
 
-- 有一个书影音展示墙：[呆呆便利贴](https://clear0804-docsify.vercel.app/#/)，但由于记性不好80%的时间是腹泻式更新。
+- 有一个书影音展示墙：[呆呆便利贴](http://doc.graugris.icu/#/)，但由于记性不好80%的时间是腹泻式更新。
 
 - 很喜欢到处串门但不常留言，欢迎大家来找我加友链！
 
