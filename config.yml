@@ -27,7 +27,7 @@ minify:
 
 languages:
     en:
-        languageName: "English"
+        languageName: "Chinese"
         weight: 1
         taxonomies:
           category: categories
@@ -87,25 +87,12 @@ params:
     enableimgloop: true
     # comments: false
     images: ["favicon.png"]
-
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: /page/archives
-            - name: Tags
-              url: tags
-            
+       
 
     homeInfoParams:
         Title: "MOMO"
         Content: >
-            梦想是实现旺仔牛奶自由！
+            You're my god-given solace.
 
     socialIcons:
         - name: Mastodon
