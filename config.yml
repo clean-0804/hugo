@@ -2,7 +2,7 @@ baseURL: "https://graugris.icu/" # if your site is in 'https', then make sure yo
 title: 呆呆不是槑
 paginate: 5
 theme: hugo-PaperMod
-
+defaultContentlanguage: zh
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDraft: false
@@ -27,7 +27,7 @@ minify:
     # minifyOutput: true
 
 languages:
-    en:
+    zh:
         languageName: "Chinese"
         weight: 1
         taxonomies:
@@ -76,6 +76,7 @@ params:
     DateFormat: "2006-01-02"
     ShowShareButtons: false
     ShowWordCount: true
+  
     Showdescription: true
     # disableSpecial1stPost: true
     displayFullLangName: true

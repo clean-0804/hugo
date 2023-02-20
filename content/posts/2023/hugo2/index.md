@@ -32,6 +32,8 @@ showToc: true
     - [x]取消本地加载
     - [x]头像随机小怪兽
     - [ ]添加新的表情系列
+- [x]修改站点语言
+    - ```defaultContentLanguage```
 
 
 ## 抄抄作业
