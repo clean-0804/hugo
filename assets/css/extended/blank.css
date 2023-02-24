@@ -238,6 +238,32 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     }
 }
 
+/*文本黑幕效果*/
+.shady {
+   color:#000;
+   font-weight: bold;
+   box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+   transition: all 0.3s ease;
+}
+.shady:hover{
+  font-weight: bold;
+   color:#FFF;
+   box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+}
+
+/*高斯模糊*/
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px rgba(0,0,0,0.5)
+}
+ 
+ .blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px rgba(0,0,0,1)
+   
+}
+
+/*豆瓣卡片*/
 .post-content h4.post-preview--title{margin:0 !important;left:0;}
 .post-content h4.post-preview--title:before{content:"";left:0;}
 .post-content h4.post-preview--img{margin:0,0;}

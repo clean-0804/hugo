@@ -34,6 +34,9 @@ showToc: true
     - [ ]添加新的表情系列
 - [x]修改站点语言
     - ```defaultContentLanguage```
+- [x]文本样式
+    - 高斯模糊
+    - 黑幕效果
 
 
 ## 抄抄作业
