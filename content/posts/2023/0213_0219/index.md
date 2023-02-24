@@ -10,7 +10,7 @@ cover:
 showToc: true
 hidden: true
 ---
-{{<netease 479441810>}}
+{{<netease 479441810 0>}}
 
 ---
 
