@@ -25,7 +25,7 @@ ShowToc: false
 
 {{<friend name="Muko" url="https://main.iceco.icu/" logo="https://main.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
 
-{{<friend name="チョウ" url="https://changingmoments.vercel.app/" logo="https://changingmoments.vercel.app/images/avatar.jpg" word="就在此刻，改变时刻">}}
+{{<friend name="チョウ" url="https://changingmoments.one" logo="https://changingmoments.one/images/avatar.jpg" word="就在此刻，改变时刻">}}
 
 {{<friend name="总是在做梦" url="https://www.alwaysdream.blog/" logo="/cq.jpeg" word="Just set fire to it and walk away.">}}
 
@@ -36,6 +36,8 @@ ShowToc: false
 {{<friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。">}}
 
 {{<friend name="咖喱" url="https://joysblog.vercel.app" logo="https://joysblog.vercel.app/icons/apple-touch-icon.png" word="即使埋藏在内心也没关系">}}
+
+{{<friend name="昼河万里" url="https://tothemoonriver.icu/" logo="/12.39.16.png" word="一起去看月亮吧">}}
 
 > 下面只是单向链接，如有冒犯我先道歉╥﹏╥
 
