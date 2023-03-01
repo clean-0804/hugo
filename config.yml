@@ -50,10 +50,7 @@ languages:
                   weight: 9
                 - name: Search
                   url: search/
-                  weight: 10
-                
-                
-
+                  weight: 10              
 
 outputs:
     home:
