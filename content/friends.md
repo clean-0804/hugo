@@ -39,7 +39,7 @@ ShowToc: false
 
 {{<friend name="昼河万里" url="https://tothemoonriver.icu/" logo="/12.39.16.png" word="一起去看月亮吧">}}
 
-{{<friend name="EvanNotFound’s Blog" url="https://ohevan.com" logo="https://evan.beee.top/avatar.png " word="Evan的部落阁，用香港记者的速度更新文章">}}
+{{<friend name="EvanNotFound’s Blog" url="https://ohevan.com" logo="https://evan.beee.top/avatar.png" word="Evan的部落阁，用香港记者的速度更新文章">}}
 
 > 下面只是单向链接，如有冒犯我先道歉╥﹏╥
 
