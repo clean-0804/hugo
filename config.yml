@@ -47,10 +47,11 @@ languages:
                   weight: 7
                 - name: About
                   url: about
-                  weight: 9
+                  weight: 8
                 - name: Search
                   url: search/
-                  weight: 10              
+                  weight: 10
+                           
 
 outputs:
     home:
