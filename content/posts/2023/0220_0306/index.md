@@ -69,4 +69,4 @@ Y写初稿时会定期在群里发送千字近况，即每写一千字发张自�
 ---
 
 - 本周推歌：
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0yc6Gst2xkRu0eMLeRMGCX?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{<netease 467164485 0>}}

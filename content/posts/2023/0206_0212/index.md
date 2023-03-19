@@ -52,7 +52,7 @@ hidden: true
 短短几天练车得出的结论就是开车除了好累没什么好的，练完车灵魂再次出走吃个石锅拌饭都要被烫到三回，颈椎病也跃跃欲犯。蟹老板对我的评价是还没拿票就已经有了老司机的心态，我会把这句话当成夸奖的（你小子
 
 ## 放首背景音乐听
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3KEVb5hx9896HWmZj8OIXD?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{<netease 1886749230 0>}}
 
 本周博客bgm是东海和面姐合唱的这首歌，也是因为这首歌名选择的这期封面，然而提起blue moon好像更容易想到洗衣液？
 
