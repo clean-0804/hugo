@@ -263,6 +263,20 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
    
 }
 
+/*文本黑幕效果*/
+.container{
+    column-count: 3;/*想要排成的列数*/
+    column-gap: 15px;
+    position: center;
+}
+
+.item img{
+    width: 100%;
+    margin: 1px 1px 15px;
+}
+
+
+
 /*豆瓣卡片*/
 .post-content h4.post-preview--title{margin:0 !important;left:0;}
 .post-content h4.post-preview--title:before{content:"";left:0;}
