@@ -37,7 +37,7 @@ ShowToc: false
 
 {{<friend name="咖喱" url="https://joysblog.vercel.app" logo="https://joysblog.vercel.app/icons/apple-touch-icon.png" word="即使埋藏在内心也没关系">}}
 
-{{<friend name="昼河万里" url="https://tothemoonriver.icu/" logo="/12.39.16.png" word="一起去看月亮吧">}}
+{{<friend name="昼河万里" url="https://tothemoonriver.icu/" logo="https://tothemoonriver.icu/img/avatar_hu1f7fd3bb10d1d6e480fe680f98f799d1_738451_300x0_resize_box_3.png" word="一起去看月亮吧">}}
 
 {{<friend name="EvanNotFound’s Blog" url="https://ohevan.com" logo="https://evan.beee.top/avatar.png" word="Evan的部落阁，用香港记者的速度更新文章">}}
 
