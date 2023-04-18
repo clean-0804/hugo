@@ -43,6 +43,6 @@ ShowToc: false
 
 {{<friend name="Mengru的空间" url="https://mengru.space/" logo="https://mengru.space/pages/avatar.png" word="Mengru在互联网上的小小角落">}}
 
-> 下面只是单向链接，如有冒犯我先道歉╥﹏╥
+> 下面只是单向链接，如有冒犯我先道歉ㅠㅠ
 
 {{<friend name="白花恋诗" url="https://trails-of-isara.vercel.app/" logo="https://trails-of-isara.vercel.app/img/avatar_hu48f64c8d86fa41173b12f4da09770394_14255_300x0_resize_box_3.png" word="把最棒的吊桥效应献给你">}}
