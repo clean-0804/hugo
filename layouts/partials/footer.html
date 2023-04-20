@@ -1,4 +1,6 @@
+{{ if not .Site.IsServer }}
 <script defer src="/_vercel/insights/script.js"></script>
+{{- end -}}
 
 {{$scratch := newScratch}}
 {{ range (where .Site.Pages "Kind" "page" )}}
