@@ -15,7 +15,7 @@ showtoc: false
 
 ## 关于博主
 
-- 这里是呆呆，也可以叫我MOMO（不用在意大小写），称呼其他名字也无妨。MBTI是ISFP-A，不过我想不用太在意此，就连韩国人也不靠MBTI交友。80%的时间为kpop人，欧美略微涉足，主机单机游戏玩家，无聊时会四海为家。比较偏好同担拒否，粉籍相认不如互联网路过相视一笑。
+- 这里是呆呆，也可以叫我MOMO（不用在意大小写），称呼其他名字也无妨。MBTI是ISFP-T，不过我想不用太在意此，就连韩国人也不靠MBTI交友。80%的时间为kpop人，欧美略微涉足，主机单机游戏玩家，无聊时会四海为家。比较偏好同担拒否，粉籍相认不如互联网路过相视一笑。
 
 - 有一个笔记本：[呆呆便利贴](http://doc.graugris.icu/#/)，但由于记性不好多半是腹泻式更新。
 
@@ -24,7 +24,7 @@ showtoc: false
 ## 关于本站
 - 很明显博主非常贴合人设一如既往地不会起名，名字单纯来自于本人名字，favicon灵感来自于[金世正 - whale](https://open.spotify.com/track/4UnBxdw1l3J31WBsgmHezz?si=5d34257b84184ac9)，很好听的歌，推荐各位去听。
 
-- 使用hugo搭建Github托管，利用Vercel部署，主题是PaperMod。网站图标来自于[flaticon](https://www.flaticon.com/)。
+- 使用hugo搭建Github托管，利用Vercel部署，站点浏览量统计工具为umami，主题是PaperMod。网站图标来自于[flaticon](https://www.flaticon.com/)。
 
 - 是我的互联网落脚处，相当于高中时期的日记本，因为足够坦诚所以弥足珍贵。
 
