@@ -8,6 +8,5 @@ slug: ""
 cover:
     image: 
 showToc: true
-hidden: true
 ---
 

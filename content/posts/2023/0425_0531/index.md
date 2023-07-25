@@ -6,7 +6,7 @@ tags:
     - Tagebuch
 slug: "0425_0531"
 cover:
-    image: "DSC00840.jpg"
+    image: "DSC00840.webp"
 showToc: true
 ---
 
@@ -36,44 +36,44 @@ showToc: true
 
 <div class="container" id="con">
     <div class="item">
-        <img src="01.jpg" alt="">
-        <img src="1.jpg" alt="">
-        <img src="2.jpg" alt="">
-        <img src="3.jpg" alt="">
-        <img src="4.jpg" alt="">
-        <img src="5.jpg" alt="">
-        <img src="6.jpg" alt="">
-        <img src="7.jpg" alt="">
-        <img src="8.jpg" alt="">
-        <img src="9.jpg" alt="">
-        <img src="10.jpg" alt="">
-        <img src="11.jpg" alt="">
-        <img src="12.jpg" alt="">
-        <img src="13.jpg" alt="">
-        <img src="14.jpg" alt="">
-        <img src="15.jpg" alt="">
-        <img src="16.jpg" alt="">
-        <img src="17.jpg" alt="">
-        <img src="18.jpg" alt="">
-        <img src="19.jpg" alt="">
-        <img src="20.jpg" alt="">
-        <img src="21.jpg" alt="">
-        <img src="22.jpg" alt="">
-        <img src="23.jpg" alt="">
-        <img src="24.jpg" alt="">
-        <img src="25.jpg" alt="">
-        <img src="26.jpg" alt="">
-        <img src="27.jpg" alt="">
-        <img src="28.jpg" alt="">
-        <img src="29.jpg" alt="">
-        <img src="30.JPG" alt="">
-        <img src="31.JPG" alt="">
-        <img src="32.JPG" alt="">
-        <img src="33.JPG" alt="">
-        <img src="34.JPG" alt="">
-        <img src="35.JPG" alt="">
-        <img src="36.JPG" alt="">
-        <img src="37.JPG" alt="">
-        <img src="38.JPG" alt="">
+        <img src="01.webp" alt="">
+        <img src="1.webp" alt="">
+        <img src="2.webp" alt="">
+        <img src="3.webp" alt="">
+        <img src="4.webp" alt="">
+        <img src="5.webp" alt="">
+        <img src="6.webp" alt="">
+        <img src="7.webp" alt="">
+        <img src="8.webp" alt="">
+        <img src="9.webp" alt="">
+        <img src="10.webp" alt="">
+        <img src="11.webp" alt="">
+        <img src="12.webp" alt="">
+        <img src="13.webp" alt="">
+        <img src="14.webp" alt="">
+        <img src="15.webp" alt="">
+        <img src="16.webp" alt="">
+        <img src="17.webp" alt="">
+        <img src="18.webp" alt="">
+        <img src="19.webp" alt="">
+        <img src="20.webp" alt="">
+        <img src="21.webp" alt="">
+        <img src="22.webp" alt="">
+        <img src="23.webp" alt="">
+        <img src="24.webp" alt="">
+        <img src="25.webp" alt="">
+        <img src="26.webp" alt="">
+        <img src="27.webp" alt="">
+        <img src="28.webp" alt="">
+        <img src="29.webp" alt="">
+        <img src="30.webp" alt="">
+        <img src="31.webp" alt="">
+        <img src="32.webp" alt="">
+        <img src="33.webp" alt="">
+        <img src="34.webp" alt="">
+        <img src="35.webp" alt="">
+        <img src="36.webp" alt="">
+        <img src="37.webp" alt="">
+        <img src="38.webp" alt="">
     </div>
 </div><br>
