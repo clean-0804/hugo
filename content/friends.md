@@ -21,7 +21,7 @@ ShowToc: false
 
 {{<friend name="小球飞鱼" url="https://mantyke.icu/" logo="/mantyke.png" word="我们会一起遇见鲸鱼吗？">}}
 
-{{<friend name="Muko" url="https://main.iceco.icu/" logo="https://main.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
+{{<friend name="Muko" url="https://oaad.iceco.icu/" logo="https://oaad.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
 
 {{<friend name="チョウ" url="https://changingmoments.one" logo="https://changingmoments.one/images/avatar.jpg" word="就在此刻，改变时刻">}}
 
