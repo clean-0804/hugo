@@ -23,7 +23,7 @@
 }
 
 .logo a {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -62,7 +62,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 16px;
+    font-size: 17spx;
 }
 
 #menu .active {

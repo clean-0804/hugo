@@ -16,11 +16,11 @@
 
 .pagination a {
     color: var(--theme);
-    font-size: 13px;
+    font-size: 14px;
     line-height: 36px;
     background: var(--primary);
     border-radius: calc(36px / 2);
-    padding: 0 16px;
+    padding: 0 17px;
 }
 
 .pagination .next {

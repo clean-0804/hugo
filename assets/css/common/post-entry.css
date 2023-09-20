@@ -21,7 +21,7 @@
 
 .first-entry .entry-content {
     margin: 14px 0;
-    font-size: 16px;
+    font-size: 17px;
     -webkit-line-clamp: 3;
 }
 
@@ -59,7 +59,7 @@
 .entry-content {
     margin: 8px 0;
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
@@ -69,7 +69,7 @@
 
 .entry-footer {
     color: var(--secondary);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .entry-link {
