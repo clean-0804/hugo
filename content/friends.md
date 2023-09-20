@@ -43,6 +43,8 @@ ShowToc: false
 
 {{<friend name="东俄勒冈群山" url="https://houdini.eu.org/" logo="https://houdini.eu.org/avatar.jpeg" word="它就像一个承诺，并几乎像一个下流的言行。">}}
 
+{{<friend name="nanase" url="https://heyheynanase.vercel.app/" logo="https://heyheynanase.vercel.app/avatar.jpg" word="噢噢大陆居民">}}
+
 > 下面只是单向链接，如有冒犯我先道歉ㅠㅠ
 
 {{<friend name="白花恋诗" url="https://trails-of-isara.vercel.app/" logo="https://trails-of-isara.vercel.app/img/avatar_hu48f64c8d86fa41173b12f4da09770394_14255_300x0_resize_box_3.png" word="把最棒的吊桥效应献给你">}}
