@@ -93,7 +93,7 @@ params:
 
     socialIcons:
         - name: Mastodon
-          url: https://me.ns.ci/@mohari
+          url: https://o3o.ca/@mohari
         - name: Other
           url: "http://doc.graugris.icu/"
         - name: Rss
