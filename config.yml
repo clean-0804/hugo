@@ -34,6 +34,21 @@ languages:
           category: categories
           tag: tags
           series: series
+        profileMode:
+          enabled: true
+          title: MOMO
+          subtitle: You're my god-given solace.
+          imageURL: /avatar.png
+          buttons:
+            - name: Blog
+              url: /archives
+            - name: Movies
+              url: /movies
+            - name: Books
+              url: /books
+            - name: Games
+              url: /games
+
         menu:
             main:
                 - name: Archives
@@ -41,9 +56,12 @@ languages:
                   weight: 5
                 - name: Friends
                   url: friends/
-                  weight: 8
+                  weight: 9
                 - name: About
                   url: about
+                  weight: 8
+                - name: Tags
+                  url: tags
                   weight: 7
                 - name: Search
                   url: search/
