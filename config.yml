@@ -48,24 +48,23 @@ languages:
               url: /books
             - name: Games
               url: /games
-
         menu:
             main:
-                - name: Archives
-                  url: archives
-                  weight: 5
-                - name: Friends
-                  url: friends/
-                  weight: 9
-                - name: About
-                  url: about
-                  weight: 8
-                - name: Tags
-                  url: tags
-                  weight: 7
-                - name: Search
-                  url: search/
-                  weight: 10
+              - name: Archives
+                url: archives
+                weight: 5
+              - name: Friends
+                url: friends/
+                weight: 9
+              - name: About
+                url: about
+                weight: 8
+              - name: Tags
+                url: tags
+                weight: 7
+              - name: Search
+                url: search/
+                weight: 10
                            
 
 outputs:
