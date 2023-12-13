@@ -40,8 +40,8 @@ languages:
           subtitle: You're my god-given solace.
           imageURL: /avatar.png
           buttons:
-            - name: Blog
-              url: /archives
+            - name: Posts
+              url: /posts
             - name: Movies
               url: /movies
             - name: Books

@@ -1,7 +1,7 @@
 ---
-title: "周年｜做一场未完结的梦"
+title: "周年 | 做一场未完结的梦"
 date: 2023-12-01T10:39:33+08:00
-description: "Anniversary｜一年过后的今天，我原来还在写" #描述
+description: "Anniversary | 一年过后的今天，我原来还在写" #描述
 tags: 
     - Tagebuch
 slug: "first_anniversary"
