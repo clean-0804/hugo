@@ -81,7 +81,7 @@ params:
 
     footer:
         since: 2022
-        customText: 2023
+        customText: 2024
 
     defaultTheme: auto
     # disableThemeToggle: true
