@@ -111,8 +111,6 @@ params:
     socialIcons:
         - name: Mastodon
           url: https://o3o.ca/@mohari
-        - name: Other
-          url: "http://doc.graugris.icu/"
         - name: Rss
           url: "index.xml"
     comments: 
