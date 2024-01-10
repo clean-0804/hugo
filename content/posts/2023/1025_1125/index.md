@@ -1,7 +1,7 @@
 ---
 title: "月记 | 冷天就要摄入元气爱抖露"
 date: 2023-11-25T17:19:04+08:00
-description: "Oct.25-Sep.25 | 巧克力小饼干的一年n次返场进行中" #描述
+description: "Oct.25-Nov.25 | 巧克力小饼干的一年n次返场进行中" #描述
 tags: 
     - Tagebuch
 slug: "1025_1125"
