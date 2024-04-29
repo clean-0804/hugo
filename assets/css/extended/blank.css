@@ -275,7 +275,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     margin: 1px 1px 15px;
 }
 
-
+mark{
+    background: hsla(256, 55%, 80%, 0.969);
+}
 
 /*豆瓣卡片*/
 .post-content h4.post-preview--title{margin:0 !important;left:0;}
