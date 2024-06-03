@@ -11,7 +11,7 @@ showToc: true
 建站之后第一次换主题，挑了好久才选了Papermod，简洁风超级好看。还有现成作业可以抄，懒人狂喜！
 
 ## 待办列表
-其实主要是列一个list，记录一下换主题之后需要更新和装修的内容，方便之后统计。
+Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：240601】
 - [x] 页脚信息
     - 站点运行时间、文章数目&总字数统计
     - ```footer.html```
@@ -23,6 +23,7 @@ showToc: true
     - 引用
     - bilibili
     - 网易云
+    - Neodb卡片
 - [x]favicon
 - [x]全站字体
     - 添加字体
@@ -37,7 +38,8 @@ showToc: true
 - [x]文本样式
     - 高斯模糊
     - 黑幕效果
-
+- [x] 书影游墙
+- [x]博客目录显示层级修改
 
 ## 抄抄作业
 几乎没有自己动脑全程到处抄抄，很幸福的体验。列一下以供下次换主题参考（你……！
@@ -47,6 +49,7 @@ showToc: true
 4. [博客目录放在侧边](https://www.sulvblog.cn/posts/blog/hugo_toc_side/)
 5. 短代码参考：[来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
 6. [文章封面图片](https://www.sulvblog.cn/posts/blog/img_right/)
+7. [Blog | 主题重新施工，和书影游展示墙](https://mantyke.icu/posts/2022/a-flower-upon-your-return/)
 ## 灵机一动
 ### 首页显示
 修改首页博文显示标题下的小字内容，默认显示summary，否则就会直接显示正文，但是之前博客已经有description再额外写summary感觉太麻烦。于是把这里改成直接显示description。方式是在```list.html```里修改下面这段代码：
@@ -80,3 +83,6 @@ showToc: true
 
 #### 邮件通知
 参照文档里的[邮件通知](https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5)，在vercel里配置环境变量即可。配置完记得要重新部署。
+
+### 博客目录显示层级修改
+标题叠太多层时都显示在目录里太乱了不好看，希望目录里只显示到三级标题。于是把```toc.html```里第一行的两个```h[1-6]```改成了```h[1-3]```。
