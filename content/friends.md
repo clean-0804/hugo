@@ -23,7 +23,7 @@ ShowToc: false
 
 {{<friend name="Muko" url="https://oaad.iceco.icu/" logo="https://oaad.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
 
-{{<friend name="チョウ" url="https://changingmoments.one" logo="https://changingmoments.one/images/avatar.jpg" word="就在此刻，改变时刻">}}
+{{<friend name="蝴蝶曾在此处" url="https://write.c7.io/tyou/" logo="https://files.steamedbread.pro/accounts/avatars/111/736/388/380/153/235/original/d032a02211aef199.jpeg" word="Strength can be built.">}}
 
 {{<friend name="总是在做梦" url="https://www.alwaysdream.blog/" logo="/cq.jpeg" word="Just set fire to it and walk away.">}}
 
