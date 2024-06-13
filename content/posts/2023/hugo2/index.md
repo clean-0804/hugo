@@ -11,7 +11,7 @@ showToc: true
 建站之后第一次换主题，挑了好久才选了Papermod，简洁风超级好看。还有现成作业可以抄，懒人狂喜！
 
 ## 待办列表
-Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：240601】
+Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：240613】
 - [x] 页脚信息
     - 站点运行时间、文章数目&总字数统计
     - ```footer.html```
@@ -40,6 +40,7 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
     - 黑幕效果
 - [x] 书影游墙
 - [x]博客目录显示层级修改
+- [x]友链界面样式修改
 
 ## 抄抄作业
 几乎没有自己动脑全程到处抄抄，很幸福的体验。列一下以供下次换主题参考（你……！
@@ -50,6 +51,7 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 5. 短代码参考：[来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
 6. [文章封面图片](https://www.sulvblog.cn/posts/blog/img_right/)
 7. [Blog | 主题重新施工，和书影游展示墙](https://mantyke.icu/posts/2022/a-flower-upon-your-return/)
+
 ## 灵机一动
 ### 首页显示
 修改首页博文显示标题下的小字内容，默认显示summary，否则就会直接显示正文，但是之前博客已经有description再额外写summary感觉太麻烦。于是把这里改成直接显示description。方式是在```list.html```里修改下面这段代码：
@@ -86,3 +88,49 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 
 ### 博客目录显示层级修改
 标题叠太多层时都显示在目录里太乱了不好看，希望目录里只显示到三级标题。于是把```toc.html```里第一行的两个```h[1-6]```改成了```h[1-3]```。
+
+### 友链界面修改
+看到[小鱼](https://gregueria.icu/)的友链界面觉得好好看于是冲去毛象求教！小鱼很热情地把代码直接发给我了ww，只要在友链界面文章前放CSS样式就可以，在小鱼的版本上自行进行了一些修改，具体代码如下：
+
+```
+<style>
+.post-content ul {
+    padding-inline-start: 40px;
+    /*修改列表缩进量*/
+}
+
+.post-content a{
+    box-shadow: none;
+    /*去掉链接下方横线*/
+    color: rgb(114,62,136); 
+    /*修改链接颜色*/
+}
+
+.post-content li::marker {
+  content: "❀  "; 
+  /* 让无序列表前的圆点变成小花 */
+  color:  rgb(152,101,175); 
+  /*修改小花颜色*/
+
+}
+
+.post-content a::after {
+    content: " | " ;
+    /* 让每个超链接后都有个分隔号 */
+    padding: 0 0.2em; /* 调整间距大小 */
+}
+
+.post-content a:last-child::after {
+    content: none;
+    /* 最后一个链接不需要分隔号 */
+}
+</style>
+```
+
+效果：
+![1](1.png#center)
+<style>
+  img[alt="1"]{
+    width:500px;
+  }
+</style>

@@ -6,45 +6,71 @@ ShowBreadCrumbs: false
 ShowToc: false
 ---
 <style>
-.post-meta {
+  .post-meta {
     display: none;
   }
+
+.post-content ul {
+    padding-inline-start: 40px;
+/*修改列表缩进量*/
+}
+
+.post-content a{
+    box-shadow: none;
+    /*去掉链接下方横线*/
+    color: rgb(114,62,136); 
+    /*修改链接颜色*/
+}
+
+.post-content li::marker {
+  content: "❀  "; 
+  /* 让无序列表前的圆点变成小花 */
+  color:  rgb(152,101,175); 
+
+}
+
+.post-content a::after {
+    content: " | " ;
+    /* 让每个超链接后都有个分隔号 */
+    padding: 0 0.2em; /* 调整间距大小 */
+}
+
+.post-content a:last-child::after {
+    content: none;
+    /* 最后一个链接不需要分隔号 */
+}
 </style>
 
+</br>
 
-> 希望和大家成为赛博好友！
+
+
+- [小球飞鱼](https://mantyke.icu/) [蝴蝶曾在此处](https://write.c7.io/tyou/) [谢谢所有的鱼](https://gregueria.icu/) [山茶花舍](https://www.missingid.cloud/) 
+
+-  [东俄勒冈群山](https://houdini.eu.org/) [Muko](https://oaad.iceco.icu/) [Missing](https://www.missingid.cloud/) [Shixiaocaia](https://shixiaocaia.fun) 
+
+- [Mengru](https://mengru.space/)[nanase](https://heyheynanase.vercel.app/)  [EvanNotFound’s Blog](https://ohevan.com)
+
+喜欢您来，喜欢您再来！修改了界面样式，现在交换友链可以不用提供头像和网站描述了～（也许以后还需要但是之后的事情之后再说吧！）
+
+---
+
+- [白花恋诗](https://trails-of-isara.vercel.app) [一支咏叹调](https://turquoise.one/) [第三夏尔](https://thirdshire.com/) [椒盐豆豉](https://blog.douchi.space/) [夜航南飞](https://banshou-air.netlify.app/) [晴空](https://www.summeringway.icu/) 
+
+- [土豆豆土](https://potatootatop.bearblog.dev/) [海峡邮差](https://camellia34.one/) [三輪](https://sanlun.bike/) [VELAS 电波站](https://www.velasx.com/) [A Purrception](https://tortie.me/) 
+
+- [纸糖织猫](https://brsu.me/) [Tarocake](https://tarocake.club/) [Owen's Clip](https://clip.owenyoung.com/) [Middle of Nowhere](https://notes.midofnowhere.link/) 
+
+
+好看爱看多看，很多友邻虽然没有交换链接但是会时常点进去阅读，未经允许添加在此，如有冒犯请不要犹豫在评论区留言要求删掉ㅠㅠ
+
+---
+
+#### 希望和大家成为赛博好友！
 
 > 名称：呆呆不是槑  
 > 简介：梦想是实现旺仔牛奶自由  
-> 地址：[http://graugris.icu/](https://graugris.icu/)  
-> 头像：[http://graugris.icu/avatar.png](https://graugris.icu/avatar.png)
+> 地址：http://graugris.icu/ </br>
+> 头像：http://graugris.icu/avatar.png
 
-{{<friend name="小球飞鱼" url="https://mantyke.icu/" logo="/mantyke.png" word="我们会一起遇见鲸鱼吗？">}}
-
-{{<friend name="Muko" url="https://oaad.iceco.icu/" logo="https://oaad.iceco.icu/avater.png" word="我以前没得选，现在我想做个绝望的文盲.">}}
-
-{{<friend name="蝴蝶曾在此处" url="https://write.c7.io/tyou/" logo="https://files.steamedbread.pro/accounts/avatars/111/736/388/380/153/235/original/d032a02211aef199.jpeg" word="Strength can be built.">}}
-
-{{<friend name="总是在做梦" url="https://www.alwaysdream.blog/" logo="/cq.jpeg" word="Just set fire to it and walk away.">}}
-
-{{<friend name="山茶花舍" url="https://irithys.com" logo="https://cdn.jsdelivr.net/gh/irithys/cdn@1.1/photo/avatar3.webp" word="吕楪在记录自己的生活">}}
-
-{{<friend name="谢谢所有的鱼" url="https://gregueria.icu/" logo="https://gregueria.icu/avatar.png" word="Hope my veins will bleed out of beautiful words.">}}
-
-{{<friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。">}}
-
-{{<friend name="咖喱" url="https://joysblog.vercel.app" logo="https://joysblog.vercel.app/icons/apple-touch-icon.png" word="即使埋藏在内心也没关系">}}
-
-{{<friend name="昼河万里" url="https://tothemoonriver.icu/" logo="https://tothemoonriver.icu/img/avatar_hu1f7fd3bb10d1d6e480fe680f98f799d1_738451_300x0_resize_box_3.png" word="一起去看月亮吧">}}
-
-{{<friend name="EvanNotFound’s Blog" url="https://ohevan.com" logo="https://evan.beee.top/avatar.png" word="Evan的部落阁，用香港记者的速度更新文章">}}
-
-{{<friend name="Mengru的空间" url="https://mengru.space/" logo="https://mengru.space/pages/avatar.png" word="Mengru在互联网上的小小角落">}}
-
-{{<friend name="东俄勒冈群山" url="https://houdini.eu.org/" logo="https://houdini.eu.org/avatar.jpeg" word="它就像一个承诺，并几乎像一个下流的言行。">}}
-
-{{<friend name="nanase" url="https://heyheynanase.vercel.app/" logo="https://heyheynanase.vercel.app/avatar.jpg" word="噢噢大陆居民">}}
-
-> 下面只是单向链接，如有冒犯我先道歉ㅠㅠ
-
-{{<friend name="白花恋诗" url="https://trails-of-isara.vercel.app/" logo="https://trails-of-isara.vercel.app/img/avatar_hu48f64c8d86fa41173b12f4da09770394_14255_300x0_resize_box_3.png" word="把最棒的吊桥效应献给你">}}
+在不同平台结识的朋友带给人的感觉十分不同，和各位通过博客相遇、阅读彼此的长篇文字于我而言仿佛是和大家进行了更深入的交流，因此很珍惜这样宝贵的时刻。欢迎友邻在评论区留言交换友链！象上的朋友也可以直接私信～不过抱歉暂不接受纯技术博客，我真的看不懂……
