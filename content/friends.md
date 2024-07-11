@@ -45,7 +45,7 @@ ShowToc: false
 
 
 
-- [小球飞鱼](https://mantyke.icu/) [蝴蝶曾在此处](https://write.c7.io/tyou/) [谢谢所有的鱼](https://gregueria.icu/) [山茶花舍](https://www.missingid.cloud/) 
+- [小球飞鱼](https://mantyke.icu/) [蝴蝶曾在此处](https://write.c7.io/tyou/) [谢谢所有的鱼](https://gregueria.icu/) [山茶花舍](https://irithys.com) 
 
 -  [东俄勒冈群山](https://houdini.eu.org/) [Muko](https://oaad.iceco.icu/) [Missing](https://www.missingid.cloud/) [Shixiaocaia](https://shixiaocaia.fun) 
 
