@@ -1,10 +1,10 @@
 ---
-title: "汇总 | 互联网虚拟工具箱"
+title: "工具 | 互联网虚拟爱用物"
 date: 2023-09-09T21:52:24+08:00
 description: "Vol.1 | 极致P人的正事套餐" #描述
 tags: 
     - Summe
-slug: "summe_3"
+slug: "apps"
 cover:
     image: 
 showToc: true
