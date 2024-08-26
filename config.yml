@@ -62,6 +62,9 @@ languages:
               - name: Tags
                 url: tags
                 weight: 7
+              - name: Test
+                url: test/
+                weight: 6
               - name: Search
                 url: search/
                 weight: 10
