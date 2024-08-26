@@ -9,6 +9,19 @@
   {{- end }}
 </header>
 
+<section id="tags">
+  <ul class="terms-tags">
+      {{- range $tagName, $tagPages := .Site.Taxonomies.tags }}
+          {{- $count := len $tagPages }}
+          {{- $tagNameTitle := $tagName | title }} <!-- 确保首字母大写 -->
+          <li>
+              <a href="/tags/{{ $tagName | urlize }}">{{ $tagNameTitle }} <sup><strong>{{ $count }}</strong></sup></a>
+          </li>
+      {{- end }}
+  </ul>
+</section>
+
+
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 
 {{- if site.Params.ShowAllPagesInArchive }}
