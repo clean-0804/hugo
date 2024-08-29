@@ -41,6 +41,7 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 - [x] 书影游墙
 - [x]博客目录显示层级修改
 - [x]友链界面样式修改
+- [x]归档和分类页面合并
 
 ## 抄抄作业
 几乎没有自己动脑全程到处抄抄，很幸福的体验。列一下以供下次换主题参考（你……！
@@ -134,3 +135,20 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
     width:500px;
   }
 </style>
+
+### 归档和分类页面合并
+很久之前就想添加的功能，但是一直没研究出来。最后跟ChatGPT讲了二十分钟让它帮我写出来了。在archive.html里的<head>后面添加下面这段代码：
+
+```
+<section id="tags">
+  <ul class="terms-tags">
+      {{- range $tagName, $tagPages := .Site.Taxonomies.tags }}
+          {{- $count := len $tagPages }}
+          {{- $tagNameTitle := $tagName | title }} <!-- 确保首字母大写 -->
+          <li>
+              <a href="/tags/{{ $tagName | urlize }}">{{ $tagNameTitle }} <sup><strong>{{ $count }}</strong></sup></a>
+          </li>
+      {{- end }}
+  </ul>
+</section>
+```

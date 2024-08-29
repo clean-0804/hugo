@@ -34,7 +34,7 @@ showtoc: false
 
 - Tagebuch【生活与心情记录】
 - Hugo【存档博客装修过程】
-- Summe【书影游及可能出现的其他内容汇总】 
+- Summe【可能出现的其他内容汇总】 
 
 ## 联系我
 
