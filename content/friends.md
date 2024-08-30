@@ -55,17 +55,6 @@ ShowToc: false
 
 ---
 
-- [白花恋诗](https://trails-of-isara.vercel.app) [一支咏叹调](https://turquoise.one/) [第三夏尔](https://thirdshire.com/) [椒盐豆豉](https://blog.douchi.space/) [夜航南飞](https://banshou-air.netlify.app/) [晴空](https://www.summeringway.icu/) 
-
-- [土豆豆土](https://potatootatop.bearblog.dev/) [海峡邮差](https://camellia34.one/) [三輪](https://sanlun.bike/) [VELAS 电波站](https://www.velasx.com/) [A Purrception](https://tortie.me/) 
-
-- [纸糖织猫](https://brsu.me/) [Tarocake](https://tarocake.club/) [Owen's Clip](https://clip.owenyoung.com/) [Middle of Nowhere](https://notes.midofnowhere.link/) 
-
-
-好看爱看多看，很多友邻虽然没有交换链接但是会时常点进去阅读，未经允许添加在此，如有冒犯请不要犹豫在评论区留言要求删掉ㅠㅠ
-
----
-
 #### 希望和大家成为赛博好友！
 
 > 名称：呆呆不是槑  
