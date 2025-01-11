@@ -1,0 +1,105 @@
+<div class="chat-container">
+
+  <div class="chat-timestamp">{{ .Get "time" }}</div>
+  
+  {{ .Inner }}
+  
+  </div>
+  
+  
+  
+  <style>
+  
+  .chat-container {
+  
+  margin:10px 20px;
+  
+  position: relative;
+  
+  padding: 20px;
+  
+  border-radius: 5px;
+  
+  background-color: var(--code-bg);
+  
+  }
+
+  
+  .chat-title {
+  
+  display: flex;
+  
+  align-items: center;
+  
+  font-weight:bold;
+  
+  font-size: 0.9em;
+  
+  }
+  
+  
+  
+  .chat-timestamp {
+  
+  text-align: center;
+  
+  font-size: 0.8em;
+  
+  color: #888;
+  
+  margin-bottom: 10px;
+  
+  }
+  
+  
+  
+  .chat-bubble {
+  
+  padding: 5px 10px;
+  
+  margin: 10px;
+  
+  border-radius: 9px;
+  
+  display: inline-block;
+  
+  max-width: 75%;
+  
+  font-size: 0.9em;
+  
+  }
+  
+  
+  
+  .chat-bubble-left {
+  
+  text-align: left;
+  
+  clear: both;
+  
+  box-shadow: 0 0 2px #b5b7ca;
+
+ 
+  
+  }
+  
+  
+  
+  .chat-bubble-right {
+  
+  background-color: #8b7c9e;
+  
+  color: white;
+  
+  text-align: left;
+  
+  float: right;
+  
+  clear: both;
+  
+  }
+  
+  
+  
+  </style>
+  

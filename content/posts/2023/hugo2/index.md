@@ -11,7 +11,7 @@ showToc: true
 建站之后第一次换主题，挑了好久才选了Papermod，简洁风超级好看。还有现成作业可以抄，懒人狂喜！
 
 ## 待办列表
-Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：240613】
+Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：241029】
 - [x] 页脚信息
     - 站点运行时间、文章数目&总字数统计
     - ```footer.html```
@@ -24,6 +24,7 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
     - bilibili
     - 网易云
     - Neodb卡片
+    - 对话气泡
 - [x]favicon
 - [x]全站字体
     - 添加字体
@@ -49,7 +50,9 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 2. [文章修改meta信息](https://www.sulvblog.cn/posts/blog/hugo_postmeta/)
 3. [给博客添加友链](https://www.sulvblog.cn/posts/blog/hugo_link/)
 4. [博客目录放在侧边](https://www.sulvblog.cn/posts/blog/hugo_toc_side/)
-5. 短代码参考：[来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
+5. 短代码参考：
+- [来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
+- [✦ 粉刷匠 ✦ 短代码备忘录](https://lunasa.icu/2024/hugo-decor-03/)
 6. [文章封面图片](https://www.sulvblog.cn/posts/blog/img_right/)
 7. [Blog | 主题重新施工，和书影游展示墙](https://mantyke.icu/posts/2022/a-flower-upon-your-return/)
 
