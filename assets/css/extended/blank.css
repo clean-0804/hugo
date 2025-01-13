@@ -310,5 +310,19 @@ mark{
 /* db-card -------- end */
 
 
+/* Huiwen Zhengkai font*/
 
+@font-face {
+    font-family: 'HuiwenZhengkai'; /* 自定义字体名称 */
+    src: url('/fonts/Huiwen-Zhengkai.ttf') format('truetype'); /* 字体路径 */
+    font-weight: normal; /* 设置权重，视字体文件支持的权重而定 */
+    font-style: normal; /* 设置风格，例如 normal、italic */
+    unicode-range: U+4E00-9FFF;
+}
 
+@font-face {
+    font-family: 'Esteban'; /* 自定义字体名称 */
+    src: url('/fonts/Esteban.ttf') format('truetype'); /* 字体路径 */
+    font-weight: normal; /* 设置权重，视字体文件支持的权重而定 */
+    font-style: normal; /* 设置风格，例如 normal、italic */
+}
