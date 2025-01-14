@@ -47,9 +47,9 @@ ShowToc: false
 
 - [蝴蝶曾在此处](https://write.c7.io/tyou/) [谢谢所有的鱼](https://gregueria.icu/) [东俄勒冈群山](https://houdini.eu.org/) [天堂错误文件](https://naturaleki.one/)
 
-- [匣](https://lunasa.icu) [山茶花舍](https://irithys.com) [小球飞鱼](https://mantyke.icu/)  [Muko](https://oaad.iceco.icu/) [Mengru](https://mengru.space/) [Shixiaocaia](https://shixiaocaia.fun) 
+- [匣](https://lunasa.icu) [山茶花舍](https://irithys.com) [小球飞鱼](https://mantyke.icu/) [深海鱼拒绝触礁](https://trails-of-isara.vercel.app/) [Muko](https://oaad.iceco.icu/) [Shixiaocaia](https://shixiaocaia.fun) 
 
-- [kiyocube](https://kiyocube.me/)  [Missing](https://www.missingid.online)  [nanase](https://heyheynanase.vercel.app/) [EvanNotFound’s Blog](https://ohevan.com) 
+- [kiyocube](https://kiyocube.me/) [Mengru](https://mengru.space/) [Missing](https://www.missingid.online)  [nanase](https://heyheynanase.vercel.app/) [EvanNotFound’s Blog](https://ohevan.com) 
 
 喜欢您来，喜欢您再来！修改了界面样式，现在交换友链可以不用提供头像和网站描述了～（也许以后还需要但是之后的事情之后再说吧！）
 

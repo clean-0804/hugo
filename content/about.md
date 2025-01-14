@@ -24,7 +24,7 @@ showtoc: false
 ## 关于本站
 - 很明显博主非常贴合人设一如既往地不会起名，名字单纯来自于本人名字，favicon灵感来自于[金世正 - whale](https://open.spotify.com/track/4UnBxdw1l3J31WBsgmHezz?si=5d34257b84184ac9)，很好听的歌，推荐各位去听。
 
-- 使用hugo搭建Github托管，利用Vercel部署，站点浏览量统计工具为umami，主题是PaperMod。网站图标来自于[flaticon](https://www.flaticon.com/)。
+- 使用hugo搭建Github托管，利用Vercel部署，站点浏览量统计工具为umami，主题是PaperMod。网站图标来自于[flaticon](https://www.flaticon.com/)。中文字体为汇文正楷，英文字体为Esteban。
 
 - 本网站内容显示不出时，90%可能性为需要科学上网，10%可能性为内容问题。如遇后者请尽情向博主报错，感谢！
 
@@ -38,6 +38,6 @@ showtoc: false
 
 ## 联系我
 
-- 评论区历经多日终于建好了！但若有需要也可以通过[提问箱](https://box.n3ko.co/_/clear0804)或首页提供的毛象链接和我联系
+- 评论区历经多日终于建好了！但若有需要也可以通过右下角气泡或首页提供的毛象链接和我联系
 
 - 祝您生活愉快(o^^o)
