@@ -1,4 +1,4 @@
-{{ if not .Site.IsServer }}
+
 <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
 <div id="waline" class="waline-container"></div>
 
@@ -25,6 +25,7 @@
         sofa:'这里还空空如也 O_O',
         placeholder: '喜欢您来，喜欢您再来～'
       },
+      meta: [],
       emoji: [
     'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
     'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
@@ -35,7 +36,7 @@
   </script>
 </body>
 
-{{- end -}}
+
 
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
