@@ -114,6 +114,7 @@ params:
     comments: 
       enabled: true
       recordIP: false
+      DISABLE_META: true
       emoji: "https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"
 
     
