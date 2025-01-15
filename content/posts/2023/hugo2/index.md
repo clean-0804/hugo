@@ -1,7 +1,7 @@
 ---
-title: "Hugo | 新主题驾到！"
+title: "Hugo | Papermod主题装修日志"
 date: 2023-01-07T15:42:37+08:00
-description: "新年新气象换个新主题！" #描述
+description: "删删减减缝缝补补的维修全过程" #描述
 tags: 
     - Hugo
 slug: "hugo2"
@@ -11,7 +11,7 @@ showToc: true
 建站之后第一次换主题，挑了好久才选了Papermod，简洁风超级好看。还有现成作业可以抄，懒人狂喜！
 
 ## 待办列表
-Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：241029】
+Papermod主题以来更新和装修内容的List，方便之后统计【最后更新日期：250115】
 - [x] 页脚信息
     - 站点运行时间、文章数目&总字数统计
     - ```footer.html```
@@ -51,10 +51,11 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 3. [给博客添加友链](https://www.sulvblog.cn/posts/blog/hugo_link/)
 4. [博客目录放在侧边](https://www.sulvblog.cn/posts/blog/hugo_toc_side/)
 5. 短代码参考：
-- [来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
-- [✦ 粉刷匠 ✦ 短代码备忘录](https://lunasa.icu/2024/hugo-decor-03/)
+    - [来写一些好玩的 Hugo 短代码](https://irithys.com/p/hugo-shortcode-list/)
+    - [✦ 粉刷匠 ✦ 短代码备忘录](https://lunasa.icu/2024/hugo-decor-03/)
 6. [文章封面图片](https://www.sulvblog.cn/posts/blog/img_right/)
 7. [Blog | 主题重新施工，和书影游展示墙](https://mantyke.icu/posts/2022/a-flower-upon-your-return/)
+8. 评论区配置&自定义颜表情： [■■Loading：《hugo 装修日志 02》■■](https://naturaleki.one/post/loading-hugo-02/#%E8%87%AA%E5%AE%9A%E4%B9%89waline)
 
 ## 灵机一动
 ### 首页显示
@@ -81,11 +82,6 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
 换了个主题之后终于建好了……！感觉这一日需要载入本博客史册。参考了[官方中文文档](https://waline.js.org/guide/get-started/)与塔塔这篇[Hugo | 为 Blog 增加评论区](https://mantyke.icu/posts/2021/comment/)。
 
 按照官方文档进行到vercel部署之后，html引入到```layouts/partials/comments.html```里。找在哪引入找了半天最后发现直接放到comments里就行…照抄的塔塔的评论区格式代码也是放在这里。
-
-#### 评论配置
-在```config```和```comments.html```里配置都没反应，后来发现是上面放的那串代码直接引入了init。于是走下下策把```waline.mjs```文件下载到本地进行修改。我把这个文件直接放到static里了，引用的时候比较方便。
-
-具体操作：将上文html引入的代码中引```'https://unpkg.com/@waline/client@v2/dist/waline.mjs'```修改为```'/waline.mjs'```，需要修改的地方就直接用开发者模式查看是文件里哪段代码管理的，需要哪段改哪段就好了。
 
 #### 邮件通知
 参照文档里的[邮件通知](https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5)，在vercel里配置环境变量即可。配置完记得要重新部署。
@@ -155,3 +151,26 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
   </ul>
 </section>
 ```
+
+## 修改博客字体
+将博客字体修改为汇文正楷和Esteban。装修的时候发现好像没有霞鹜文楷那样的引用链接，于是让ChatGPT老师帮我写了代码。
+1. 在static文件夹下新建fonts文件夹，将字体文件放入其中。
+2. 在博客的自定义css文件中添加以下代码：
+
+```
+@font-face {
+    font-family: 'HuiwenZhengkai'; /* 自定义字体名称 */
+    src: url('/fonts/Huiwen-Zhengkai.ttf') format('truetype'); /* 字体路径 */
+    font-weight: normal; /* 设置权重，视字体文件支持的权重而定 */
+    font-style: normal; /* 设置风格，例如 normal、italic */
+    unicode-range: U+4E00-9FFF;/* 只适用于中文字符 */
+}
+
+@font-face {
+    font-family: 'Esteban'; 
+    src: url('/fonts/Esteban.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+```
+3. 在reset.rss中body模块下的font-family添加```'HuiwenZhengkai','Esteban'```

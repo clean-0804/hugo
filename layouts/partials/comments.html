@@ -14,11 +14,23 @@
   <!-- ... -->
   <div id="waline"></div>
   <script type="module">
-    import { init } from '/waline.mjs';
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
     init({
       el: '#waline',
       serverURL: 'https://waline.graugris.icu/',
+      dark: '.dark',
+      lang: 'zh-CN',
+      locale:{
+        sofa:'这里还空空如也 O_O',
+        placeholder: '喜欢您来，喜欢您再来～'
+      },
+      emoji: [
+    'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
+    'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+    'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+    'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+           ]
     });
   </script>
 </body>
