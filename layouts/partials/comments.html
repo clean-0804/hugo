@@ -1,4 +1,4 @@
-
+{{ if not .Site.IsServer }}
 <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
 <div id="waline" class="waline-container"></div>
 
@@ -34,7 +34,7 @@
   </script>
 </body>
 
-
+{{- end -}}
 
 {{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
