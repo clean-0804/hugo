@@ -34,7 +34,8 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+    
+    <span>&copy; All Rights Reserved<br>{{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
         {{ .Site.Params.footer.since }} - 
     {{ end }}
     {{ now.Format "2006" }} <a href="https://graugris.icu/">呆呆不是槑</a>·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
