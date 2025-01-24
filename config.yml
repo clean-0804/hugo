@@ -68,8 +68,10 @@ languages:
 outputs:
     home:
         - HTML
-        - RSS
         - JSON
+    section: ["HTML"]
+    taxonomy: ["HTML"]
+    taxonomyTerm: ["HTML"]
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -93,7 +95,7 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
+    ShowRssButtonInSectionTermList: false
     ShowToc: true
     TocOpen: true
     enableimgloop: true
@@ -106,11 +108,6 @@ params:
         Content: >
             You're my god-given solace.
 
-    socialIcons:
-        - name: Mastodon
-          url: https://o3o.ca/@mohari
-        - name: Rss
-          url: "index.xml"
     comments: 
       enabled: true
       recordIP: false
