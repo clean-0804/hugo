@@ -1,29 +1,86 @@
 {{ $dbUrl := .Get 0 }}
-{{ $dbApiUrl := "https://neodb.social/api/" }}
-{{ $dbType := "" }}
+{{ $apiUrl := "https://neodb.social/api/me/shelf/item/" }}
+{{ $itemUuid := "" }}
+{{ $authToken := "Mn1nKAtj_6F2PIcEtwByxA5LrngNOIik49EYBvaUp-mCrPO5acu2XqQWew" }} <!-- Replace with your actual API token -->
 
-{{ if ( findRE `^.*neodb\.social\/.*` $dbUrl ) }}
-    {{ $dbType = replaceRE `.*neodb.social\/(.*\/.*)` "$1" $dbUrl }}
+<!-- 允许多行评论 -->
+{{ $customComment := .Inner }}
+
+
+<!-- Extract item_uuid from the URL -->
+{{ if (findRE `.*neodb\.social\/.*\/(.*)` $dbUrl) }}
+{{ $itemUuid = replaceRE `.*neodb\.social\/.*\/(.*)` "$1" $dbUrl }}
 {{ else }}
-    {{ $dbType = $dbUrl }}
-    {{ $dbApiUrl = "https://neodb.social/api/catalog/fetch?url=" }}
+<p style="text-align: center;"><small>Invalid URL format.</small></p>
+{{ return }}
 {{ end }}
 
-{{ $dbFetch := getJSON $dbApiUrl $dbType }}
+<!-- Construct the API URL -->
+{{ $dbApiUrl := print $apiUrl $itemUuid }}
 
+<!-- Set up the Authorization header -->
+{{ $headers := dict "Authorization" (print "Bearer " $authToken) }}
+
+<!-- Fetch JSON from the API -->
+{{ $dbFetch := getJSON $dbApiUrl $headers }}
+
+<!-- Determine shelf status -->
+{{ $shelfType := $dbFetch.shelf_type }}
+{{ $category := $dbFetch.item.category }}
+{{ $action := "" }}
+{{ $prefix := "" }}
+{{ $suffix := "" }}
+{{ $displayText := "" }}
+
+<!-- Determine the action based on category -->
+{{ if eq $category "book" }}
+    {{ $action = "读" }}
+{{ else if or (eq $category "tv") (eq $category "movie") }}
+    {{ $action = "看" }}
+{{ else if or (eq $category "podcast") (eq $category "album") }}
+    {{ $action = "听" }}
+{{ else if eq $category "game" }}
+    {{ $action = "玩" }}
+{{ end }}
+
+<!-- Determine the prefix and suffix based on shelf type -->
+{{ if eq $shelfType "wishlist" }}
+    {{ $prefix = "想" }}
+{{ else if eq $shelfType "complete" }}
+    {{ $prefix = "" }}
+    {{ $suffix = "过" }}
+{{ else if eq $shelfType "progress" }}
+    {{ $prefix = "在" }}
+{{ else if eq $shelfType "dropped" }}
+    {{ $prefix = "不" }}
+    {{ $suffix = "了" }}
+{{ end }}
+
+<!-- Combine prefix, action, and suffix -->
+{{ $displayText = print $prefix $action $suffix }}
+
+<!-- Check if data is retrieved -->
 {{ if $dbFetch }}
-    {{ $itemRating := 0 }}{{ with $dbFetch.rating }}{{ $itemRating = . }}{{ end }}
-    <div class="db-card">
-        <div class="db-card-subject">
-            <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.cover_image_url }}"></div>
-            <div class="db-card-content">
-                <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.title }}</a></div>
-                <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
-                <div class="db-card-abstract">{{ $dbFetch.brief }}</div>
+<div class="db-card">
+    <div class="db-card-subject">
+        <div class="db-card-post">
+            <img src="{{ $dbFetch.item.cover_image_url }}" alt="Cover Image"
+                style="max-width: 100%; height: auto;">
+        </div>
+        <div class="db-card-content">
+            <div class="db-card-title">
+                <a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">
+                    {{ $dbFetch.item.title }}
+                </a>
             </div>
-            <div class="db-card-cate">{{ $dbFetch.category }}</div>
+            <div class="db-card-rating">
+                {{ $dbFetch.created_time | time.Format "2006-01-02T15:04:05Z" | time.Format "2006年01月02日" }} {{ $displayText }}
+            </div>
+            <!-- 这里显示手动输入的评论 -->
+            <div class="db-card-comment">{{ replace $customComment "\n" "<br>" | safeHTML }}</div>
         </div>
     </div>
-{{else}}
-    <p style="text-align: center;"><small>远程获取内容失败，请检查 API 有效性。</small></p>
-{{end}}
+</div>
+{{ else }}
+<p style="text-align: center;"><small>Failed to fetch content, please check the API validity.</small></p>
+{{ end }}
