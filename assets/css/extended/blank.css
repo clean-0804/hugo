@@ -290,7 +290,7 @@ mark{
     display: flex;
     align-items: flex-start;
     line-height: 1.6;
-    padding: 12px;
+    padding: 12px 0px 12px 5px;
     position: relative;
 }
 
@@ -305,7 +305,7 @@ mark{
 }
 
 .db-card-post {
-    width: 120px;
+    width: 20%;
     margin-right: 15px;
     margin-top: 10px;
     display: flex;
@@ -314,7 +314,7 @@ mark{
 
 .db-card-title {
     margin-bottom: 3px;
-    font-size: 20px;
+    font-size: 19px;
     color: var(--card-text-color-main);
     font-weight: bold;
 }
@@ -332,7 +332,6 @@ mark{
     margin-top: 10px;
     margin-bottom: 15px;
     color: var(--card-text-color-main);
-    white-space: pre-line;
 }
 
 .db-card-cate {
@@ -387,4 +386,10 @@ mark{
     src: url('/fonts/Esteban.ttf') format('truetype'); 
     font-weight: normal; 
     font-style: normal; 
+}
+
+
+strong {
+    font-weight: bold;
+    color: rgb(63, 15, 107);
 }

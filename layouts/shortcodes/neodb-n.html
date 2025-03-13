@@ -21,7 +21,7 @@
             <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.cover_image_url }}"></div>
             <div class="db-card-content">
                 <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.title }}</a></div>
-                <div class="db-card-comment">{{ replace $customComment "\n" "<br>" | safeHTML }}</div>
+                <div class="db-card-comment"><p>{{ $customComment | safeHTML }}</p></div>
             </div>
         </div>
     </div>
