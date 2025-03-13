@@ -4,7 +4,7 @@ date: 2025-03-12T14:12:47+01:00
 description: Jan.1-Mar.12 | 世界上美丽事物众多，我有幸略览一二
 tags:
   - Tagebuch
-slug: 0101_0312
+slug: "0101_0312"
 cover:
   image: 
 showToc: true
