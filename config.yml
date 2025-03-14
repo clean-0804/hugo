@@ -100,7 +100,7 @@ params:
     TocOpen: true
     enableimgloop: true
     # comments: false
-    images: "/favicon.jpg"
+    images: ["favicon.jpg"]
        
 
     homeInfoParams:
