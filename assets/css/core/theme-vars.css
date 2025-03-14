@@ -16,6 +16,8 @@
     --code-bg: rgb(235, 235, 235);
     --border: rgb(238, 238, 238);
     --border1: rgb(187, 183, 183);
+    --blur-text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* 亮色模式阴影 */
+    --strong: rgb(63, 15, 107);
 }
 
 .dark {
@@ -28,6 +30,8 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --blur-text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5); /* 暗色模式阴影 */
+    --strong: rgb(144, 106, 179);
 }
 
 .list {

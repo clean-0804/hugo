@@ -15,7 +15,7 @@
           {{- $count := len $tagPages }}
           {{- $tagNameTitle := $tagName | title }} <!-- 确保首字母大写 -->
           <li>
-              <a href="/tags/{{ $tagName | urlize }}">{{ $tagNameTitle }} <sup><strong>{{ $count }}</strong></sup></a>
+              <a href="/tags/{{ $tagName | urlize }}">{{ $tagNameTitle }} <sup>{{ $count }}</sup></a>
           </li>
       {{- end }}
   </ul>

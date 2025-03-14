@@ -26,7 +26,6 @@ ShowToc: false
   content: "❀  "; 
   /* 让无序列表前的圆点变成小花 */
   color:  rgb(152,101,175); 
-
 }
 
 .post-content a::after {

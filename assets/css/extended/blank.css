@@ -254,13 +254,12 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 /*高斯模糊*/
 .blur {
     color: transparent;
-    text-shadow:0px 0px 8px rgba(0,0,0,0.5)
+    text-shadow: var(--blur-text-shadow);
 }
- 
- .blur:hover {
-    color: transparent;
-    text-shadow:0px 0px 0px rgba(0,0,0,1)
-   
+
+.blur:hover {
+    color: var(--primary);
+    text-shadow: none;
 }
 
 /*文本黑幕效果*/
@@ -391,5 +390,5 @@ mark{
 
 strong {
     font-weight: bold;
-    color: rgb(63, 15, 107);
+    color: var(--strong);
 }
