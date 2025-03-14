@@ -392,3 +392,9 @@ strong {
     font-weight: bold;
     color: var(--strong);
 }
+
+pre {
+    overflow-x: auto;
+    max-height: 350px;
+    position: relative;
+}

@@ -27,7 +27,7 @@
   translation: "编辑"
 
 - id: code_copy
-  translation: "复制"
+  translation: "Copy"
 
 - id: code_copied
-  translation: "已复制！"
+  translation: "Copied!"

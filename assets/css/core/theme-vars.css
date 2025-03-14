@@ -12,8 +12,9 @@
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
+    --hljs-bg: rgba(255, 255, 255, 0.804);
     --code-bg: rgb(235, 235, 235);
+    --code-color: rgb(58, 57, 57);
     --border: rgb(238, 238, 238);
     --border1: rgb(187, 183, 183);
     --blur-text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5); /* 亮色模式阴影 */
@@ -29,6 +30,7 @@
     --content: rgb(196, 196, 197);
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
+    --code-color: rgb(213, 213, 214);
     --border: rgb(51, 51, 51);
     --blur-text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5); /* 暗色模式阴影 */
     --strong: rgb(144, 106, 179);

@@ -3,7 +3,6 @@
 {{ $dbType := "" }}
 
 {{ $customComment := .Inner }}
-{{ $displayText := "未标记" }}
 
 {{ if ( findRE `^.*neodb\.social\/.*` $dbUrl ) }}
     {{ $dbType = replaceRE `.*neodb.social\/(.*\/.*)` "$1" $dbUrl }}

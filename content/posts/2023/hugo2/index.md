@@ -151,26 +151,3 @@ Papermod主题以来更新和装修内容的List，方便之后统计【最后�
   </ul>
 </section>
 ```
-
-## 修改博客字体
-将博客字体修改为汇文正楷和Esteban。装修的时候发现好像没有霞鹜文楷那样的引用链接，于是让ChatGPT老师帮我写了代码。
-1. 在static文件夹下新建fonts文件夹，将字体文件放入其中。
-2. 在博客的自定义css文件中添加以下代码：
-
-```
-@font-face {
-    font-family: 'HuiwenZhengkai'; /* 自定义字体名称 */
-    src: url('/fonts/Huiwen-Zhengkai.ttf') format('truetype'); /* 字体路径 */
-    font-weight: normal; /* 设置权重，视字体文件支持的权重而定 */
-    font-style: normal; /* 设置风格，例如 normal、italic */
-    unicode-range: U+4E00-9FFF;/* 只适用于中文字符 */
-}
-
-@font-face {
-    font-family: 'Esteban'; 
-    src: url('/fonts/Esteban.ttf') format('truetype'); 
-    font-weight: normal; 
-    font-style: normal; 
-}
-```
-3. 在reset.rss中body模块下的font-family添加```'HuiwenZhengkai','Esteban'```
